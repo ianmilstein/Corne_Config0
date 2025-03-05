@@ -15,24 +15,28 @@
             bindings = <&kp LEFT_ARROW>;
             key-positions = <38 19>;
             layers = <0>;
+            timeout-ms = <200>;
         };
 
         Rarrow {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <38 21>;
             layers = <0>;
+            timeout-ms = <200>;
         };
 
         Darrow {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <38 20>;
             layers = <0>;
+            timeout-ms = <200>;
         };
 
         Uarrow {
             bindings = <&kp UP_ARROW>;
             key-positions = <38 8>;
             layers = <0>;
+            timeout-ms = <200>;
         };
     };
 
