@@ -67,10 +67,10 @@
 
         base {
             bindings = <
-&kp ESC    &tapnhold DQT Q           &tapnhold SQT W  &kp E     &kp R     &kp T        &kp Y      &kp U                     &kp I                 &kp O                      &kp P                 &kp BSPC
-&kp TAB    &kp A                     &kp S            &kp D     &kp F     &kp G        &kp H      &kp J                     &kp K                 &kp L                      &tapnhold SEMI COLON  &kp RET
-&kp LSHFT  &tapnhold LEFT_CONTROL Z  &kp X            &kp C     &kp V     &kp B        &kp N      &kp M                     &tapnhold EXCL COMMA  &tapnhold QUESTION PERIOD  &tapnhold BSLH FSLH   &kp RSHFT
-                                                      &kp LALT  &kp LGUI  &kp SPACE    &kp SPACE  &kp INT_KATAKANAHIRAGANA  &layer_jump 0 1
+&kp ESC    &tapnhold DQT Q           &tapnhold SQT W  &kp E     &kp R     &kp T        &kp Y      &kp U         &kp I                 &kp O                      &kp P                 &kp BSPC
+&kp TAB    &kp A                     &kp S            &kp D     &kp F     &kp G        &kp H      &kp J         &kp K                 &kp L                      &tapnhold SEMI COLON  &kp RET
+&kp LSHFT  &tapnhold LEFT_CONTROL Z  &kp X            &kp C     &kp V     &kp B        &kp N      &kp M         &tapnhold EXCL COMMA  &tapnhold QUESTION PERIOD  &tapnhold BSLH FSLH   &kp RSHFT
+                                                      &kp LALT  &kp LGUI  &kp SPACE    &kp SPACE  &kp INT_KANA  &layer_jump 0 1
             >;
         };
 
